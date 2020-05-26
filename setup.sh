@@ -75,7 +75,7 @@ fi
 
 green "Installing remaining packages"
 apt install -y -qqq \
-	ipython ipython3 \
+	python-pip python3-pip ipython ipython3 \
 	build-essential \
 	netcat
 	

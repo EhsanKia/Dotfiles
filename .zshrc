@@ -64,6 +64,10 @@ bindkey -e
 
 
 ########## CUSTOM BINDINGS ###########
+# Fix HOME and END key
+bindkey  "^[[H"   beginning-of-line
+bindkey  "^[[F"   end-of-line
+
 # ctrl+backspace and ctrl+del to delete word
 bindkey '^H' backward-kill-word
 bindkey '^[[3;5~' kill-word
