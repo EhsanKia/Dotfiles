@@ -1,0 +1,8 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "CtrlShiftD": "DuplicateLine",
+    "CtrlShiftDown": "MoveLinesDown",
+    "CtrlShiftUp": "MoveLinesUp",
+    "Alt-d": "SpawnMultiCursor",
+    "Esc": "RemoveAllMultiCursors",
+}
