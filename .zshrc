@@ -26,6 +26,8 @@ SAVEHIST=100000
 HISTFILE=~/.history
 setopt APPEND_HISTORY
 
+# Install fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 ############# ALIASES ###############
 alias t="tmux new-session -A -s main"
@@ -82,4 +84,3 @@ bindkey "^[[B" down-line-or-beginning-search
 # Keep at the end of .zshrc to wrap all created widgets
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
