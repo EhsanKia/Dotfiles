@@ -7,8 +7,10 @@ function yellow { echo -e "\033[0;33m$1\033[0m"; }
 
 # Install tools needed for the rest of the script
 green "Installing some tools..."
+apt update -y -qq && apt upgrade -y -qq
 apt install curl git -y -qqq
 
+# Fetch dotfiles from git
 green "Downloading dotfiles"
 git clone https://github.com/EhsanKia/Dotfiles ~/.dotfiles
 

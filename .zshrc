@@ -34,8 +34,6 @@ alias t="tmux new-session -A -s main"
 alias zshrc="$EDITOR ~/.zshrc"
 
 ########## HACKS / FIXES ############
-# Fix micro bindings in tmux
-export TERM=xterm-256color
 
 # Better word navigation(?)
 export WORDCHARS="${WORDCHARS:s#/#}"
