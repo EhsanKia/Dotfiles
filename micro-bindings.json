@@ -1,8 +1,9 @@
 {
     "Alt-/": "lua:comment.comment",
+    "Alt-d": "SpawnMultiCursor",
+    "CtrlH": "DeleteWordLeft",
     "CtrlShiftD": "DuplicateLine",
     "CtrlShiftDown": "MoveLinesDown",
     "CtrlShiftUp": "MoveLinesUp",
-    "Alt-d": "SpawnMultiCursor",
-    "Esc": "RemoveAllMultiCursors",
+    "Esc": "RemoveAllMultiCursors"
 }
