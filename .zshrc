@@ -60,6 +60,8 @@ zle -N zle-keymap-select
 # make tmux-yank work?
 bindkey -e
 
+# Help micro bindings
+export TERM=xterm-256color
 
 ########## CUSTOM BINDINGS ###########
 # Fix HOME and END key
