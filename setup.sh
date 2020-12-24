@@ -42,7 +42,7 @@ if [ -f /usr/bin/zsh ]; then
 else
 	green "Installing ZSH..."
 	apt install zsh -y
-	ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+	ln -s ~/.dotfiles/.zshrc ~/.zshrc
 
 	yellow "Setting zsh as default shell"
 	chsh -s /usr/bin/zsh
