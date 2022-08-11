@@ -47,10 +47,6 @@ else
 	yellow "Setting zsh as default shell"
 	chsh -s /usr/bin/zsh
 
-	# Install theme
-	mkdir -p "$HOME/.zsh"
-	git clone https://github.com/sindresorhus/pure "$HOME/.oh-my-zsh/themes/pure"
-
 	# Install syntax highlighting
 	apt install zsh-syntax-highlighting -y
 fi
@@ -60,6 +56,10 @@ if [ -d ~/.oh-my-zsh ]; then
 else
 	green "Installing Oh-My-ZSH..."
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+	
+	# Install theme
+	mkdir -p "$HOME/.zsh"
+	git clone https://github.com/sindresorhus/pure "$HOME/.oh-my-zsh/themes/pure"
 
 	# Install some plugins
 	git clone https://github.com/zsh-users/zsh-autosuggestions "$HOME/.oh-my-zsh/plugins/zsh-autosuggestions"
