@@ -31,6 +31,7 @@ setopt APPEND_HISTORY
 
 ############# ALIASES ###############
 alias t="tmux new-session -A -s main"
+alais m="micro"
 alias zshrc="$EDITOR ~/.zshrc"
 
 ########## HACKS / FIXES ############
