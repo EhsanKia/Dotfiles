@@ -79,5 +79,5 @@ green "Installing remaining packages"
 apt install -y -qqq \
 	python3-pip ipython3 \
 	build-essential \
-	netcat
+	netcat htop
 	
